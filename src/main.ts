@@ -1,8 +1,9 @@
 import { createApp } from "vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 import { App } from "./App";
-import { Editor } from "./views/editor";
-import { HomePage } from "./views/homePage";
+import { Editor } from "./views/Editor";
+import { HomePage } from "./views/HomePage";
+import "@svgstore";
 
 const routes = [
   { path: "/", component: HomePage },

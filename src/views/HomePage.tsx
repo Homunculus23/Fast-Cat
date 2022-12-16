@@ -1,3 +1,4 @@
+import { Icon } from "./../shared/Icon";
 import { defineComponent } from "vue";
 import s from "./HomePage.module.scss";
 export const HomePage = defineComponent({
@@ -38,7 +39,7 @@ export const HomePage = defineComponent({
             <div class={s.icon_wrapper}>
               <div class="add_url icon_Click">
                 <span class={s.icon_icon}>
-                  +<svg class={s.icon}></svg>
+                  <Icon name="add" class={s.icon} />
                 </span>
                 <div class={s.text}>新增网址</div>
               </div>
