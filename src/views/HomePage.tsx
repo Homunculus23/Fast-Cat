@@ -22,7 +22,7 @@ export const HomePage = defineComponent({
             </div>
             <div class={s.div_fm}>
               <form
-                class="fm"
+                class={s.fm}
                 method="get"
                 action="https://www.baidu.com/s"
                 target="_blank"
@@ -37,7 +37,7 @@ export const HomePage = defineComponent({
 
           <main class={s.top_main}>
             <div class={s.icon_wrapper}>
-              <div class="add_url icon_Click">
+              <div class={[s.add_url, s.icon_Click]}>
                 <span class={s.icon_icon}>
                   <Icon name="add" class={s.icon} />
                 </span>
